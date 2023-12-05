@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/robotics/syscon_ws/devel/include/**",
+        "/home/robotics/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/robotics/catkin_ws/src/racecar/ackermann_cmd_mux/include/**",
+        "/home/robotics/catkin_ws/src/autocarz/include/**",
+        "/home/robotics/syscon_ws/src/gazebo_sfm_plugin/include/**",
+        "/home/robotics/catkin_ws/src/erp42_simul/hector_gazebo/hector_gazebo_plugins/include/**",
+        "/home/robotics/catkin_ws/src/erp42_simul/hector_gazebo/hector_gazebo_thermal_camera/include/**",
+        "/home/robotics/syscon_ws/src/uos_gazebo_simulation/hybrid_astar/include/**",
+        "/home/robotics/syscon_ws/src/uos_gazebo_simulation/core_docking/dock_perception/laser_perceptions/include/**",
+        "/home/robotics/catkin_ws/src/erp42_simul/livox_laser_simulation/include/**",
+        "/home/robotics/syscon_ws/src/uos_gazebo_simulation/sp_simulation/realsense_ros_gazebo/include/**",
+        "/home/robotics/catkin_ws/src/school_navigation/include/**",
+        "/home/robotics/syscon_ws/src/uos_gazebo_simulation/sp_localization/include/**",
+        "/home/robotics/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/robotics/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/robotics/catkin_ws/src/erp42_simul/vehicle_sim/vehicle/sensor_model/velodyne/velodyne_gazebo_plugins/include/**",
+        "/home/robotics/catkin_ws/src/vesc/vesc_ackermann/include/**",
+        "/home/robotics/catkin_ws/src/vesc/vesc_driver/include/**",
+        "/home/robotics/catkin_ws/src/zed-ros-wrapper/zed-ros-interfaces/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
