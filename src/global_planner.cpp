@@ -30,7 +30,7 @@ void SchoolGlobalPlanner::initialize(std::string name, costmap_2d::Costmap2DROS*
   // __________________________
   // ROS PARAM
   std::string fpstring;
-  n.param<string>("reverse",fpstring,"/home/robotics/catkin_ws/src/school_navigation/waypoints" );
+  n.param<string>("filepath",fpstring,"/home/robotics/catkin_ws/src/school_navigation/waypoints" );
 
   
   w.readWaypointFiles(fpstring);
